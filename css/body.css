@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .title.is-1 {
+        font-size: 2rem;
+    }
+}
+
+.resposta-coluna {
+    height: 200px;
+}
