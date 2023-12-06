@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MCS BR - ZeninJr</title>
+    <link rel="shortcut icon" href="imgs/logonew.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/body.css">
+  </head>
+
+  <style type="text/css">
+    @keyframes ldio-ku0cp88a598 {
+      0% { transform: rotate(0deg) }
+      50% { transform: rotate(180deg) }
+      100% { transform: rotate(360deg) }
+    }
+    .ldio-ku0cp88a598 div {
+      position: absolute;
+      animation: ldio-ku0cp88a598 1.8800000000000001s linear infinite;
+      width: 168.79999999999998px;
+      height: 168.79999999999998px;
+      top: 21.099999999999998px;
+      left: 21.099999999999998px;
+      border-radius: 50%;
+      box-shadow: 0 1.055px 0 0 #1d3f72;
+      transform-origin: 84.39999999999999px 84.9275px;
+    }
+    .loadingio-spinner-eclipse-eo44qsumhcn {
+      width: 211px;
+      height: 211px;
+      display: inline-block;
+      overflow: hidden;
+      background: none;
+    }
+    .ldio-ku0cp88a598 {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform: translateZ(0) scale(1);
+      backface-visibility: hidden;
+      transform-origin: 0 0;
+    }
+    .ldio-ku0cp88a598 div { box-sizing: content-box; }
+    </style>
+
+  <body>
+
+    <!-- navbar -->
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <h1 class="title is-5">MCS BR</h1>
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Início
+            </a>
+          </div>
+      
+        </div>
+    </nav>
+
+    <!-- corpo principal -->
+
+    <div class="columns is-centered" style="padding-top: 5rem; height: 50vh;display: flex;flex-direction: column; justify-content: center;align-items: center;">
+
+
+        <div class="is-12">
+            <h1 class="title is-1 is-primary">
+              Minecraft Servers
+            </h1>
+        </div>
+
+        <div class="column">
+            <div class="box" style="display: flex; flex-direction: row; align-items: center;">
+                <input id="searchserver" class="input is-medium" type="text" placeholder="Rede Minecraft" style="width: 100%;">
+                <button id="getserver" class="button is-link" type="submit" style="margin-left: 1rem;">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="apiresult"></div>
+
+    <div id="resultado" class="is-12 is-zcentered" style="margin: 0 auto; justify-content: center;align-items: center;">
+
+
+
+    <div id="status">
+
+    <div id="homeservers">
+
+
+    <div class="columns" style="height: 100vh; padding-top: 1rem;justify-content: center">
+        
+        <div class="subtitle is-3 column is-three-quarters">
+            <div class="card" style="width: 100%;margin: 0 auto;">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img class="hypixelimg" src="imgs/logonew.svg" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="hypixelhost title is-4">Nome do Servidor</p>
+                      <p class="hypixelplayerson subtitle is-6">IP</p>
+                    </div>
+                  </div>
+              
+                  <div class="content">
+                    <h6 class="title is-6">Online: <span class="hypixelonline"></span></h6>
+                    <h6 class="title is-6">Versão: <span class="hypixelversion"></span></h6>
+                    <h6 class="title is-6">Status: <span class="hypixelstatus"></span></h6> 
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="subtitle is-3 column is-white">
+                
+            <div class="card" style="width: 100%;margin: 0 auto;">
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-left">
+                          <figure class="image is-48x48">
+                            <img class="hyleximg" src="imgs/logonew.svg" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="media-content">
+                          <p class="hylexhost title is-4">Nome do Servidor</p>
+                          <p class="hylexplayerson subtitle is-6">IP</p>
+                        </div>
+                      </div>
+                  
+                      <div class="content">
+                        <h6 class="title is-6">Online: <span class="hylexonline"></span></h6>
+                        <h6 class="title is-6">Versão: <span class="hylexversion"></span></h6> 
+                        <h6 class="title is-6">Status: <span class="hylexstatus"></span></h6> 
+                      </div>
+                    </div>
+            </div>
+
+        </div>
+
+        <div class="subtitle is-3 column is-white">
+                
+            <div class="card" style="width: 100%;margin: 0 auto;">
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-left">
+                          <figure class="image is-48x48">
+                            <img class="mushimg" src="imgs/logonew.svg" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="media-content">
+                          <p class="mushhost title is-4">Nome do Servidor</p>
+                          <p class="mushplayerson subtitle is-7">IP</p>
+                        </div>
+                      </div>
+                  
+                      <div class="content">
+                        <h6 class="title is-6">Online: <span class="mushonline"></span></h6>
+                        <h6 class="title is-6">Versão: <span class="mushversion"></span></h6> 
+                        <h6 class="title is-6">Status: <span class="mushstatus"></span></h6> 
+                      </div>
+                    </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="mcapi/home-servers.js"></script>
+    <script src="mcapi/search.js"></script>
+    <script>
+        $(document).ready(function() {
+
+        $(".navbar-burger").click(function() {
+
+            $(".navbar-burger").toggleClass("is-active");
+            $(".navbar-menu").toggleClass("is-active");
+
+        });
+        });
+    </script>
+  </body>
+</html>
