@@ -1,6 +1,6 @@
 # mcsbr
 
-Api disponibilizada pela MCStatus: https://mcstatus.io/
+Api disponibilizada pela MCStatus: https://mcstatus.io/docs
 
 Tecnologias utilizadas:
 - Bulma css;
