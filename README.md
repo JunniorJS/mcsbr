@@ -1,2 +1,14 @@
 # mcsbr
-Um site básico utilizando a api do site 'mcstatus.io', Html5, Css3, JQuery e BulmaCSS.
+
+Api disponibilizada pela MCStatus: https://mcstatus.io/
+
+Tecnologias utilizadas:
+- Bulma css;
+- JQuery.
+
+Outras:
+- Html;
+- Css;
+- Javascript.
+
+Feito por mim mesmo. Agradeço pela visita.
